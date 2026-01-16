@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --devour-bg: #F5F1E8;
+  --devour-sidebar: #E8DEC8;
+  --devour-card: #FFFFFF;
+  --devour-text: #2D2D2D;
+  --devour-border: #D4C5A9;
+  --devour-accent: #C9614D;
+}
+
+body {
+  background-color: var(--devour-bg);
+  color: var(--devour-text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
